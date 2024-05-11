@@ -3,14 +3,14 @@
 
 using namespace std;
 
-int main()
+int
+main()
 {
-    string name;
-    
-    getline(cin, name);
-    
-    
-    cout<<"Hello World from " << name;
+  string name;
 
-    return 0;
+  getline(cin, name);
+
+  cout << "Hello World from " << name;
+
+  return 0;
 }
